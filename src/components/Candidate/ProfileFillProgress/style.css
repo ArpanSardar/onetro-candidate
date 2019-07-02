@@ -1,0 +1,44 @@
+.avatar-uploader > .ant-upload {
+    width: 100px;
+    height: 100px;
+  }
+
+  .profileImage{
+      width:90px;
+      height: 90px;
+  }
+  .ant-tag {
+    margin-bottom: 800px;
+  }
+  .ant-select-selection--multiple .ant-select-selection__choice{
+      background-color: lightgray;
+      border-radius: 5px;
+  }
+  .required::after {
+    display: inline-block;
+    margin-left: 4px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun,sans-serif;
+    line-height: 1;
+    content: '*';
+}
+.contentClass{
+  text-align: center;
+  padding: 25px 10px;
+}
+.introVideoUploadInstruction{
+  position: relative;
+	display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  /* max-height: 320px; */
+	padding: 10px;
+	background: rgba(53, 52, 52, 0.51);
+	color: #fff;
+	min-width: 150px;
+  word-spacing: .1em;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}

@@ -1,0 +1,31 @@
+.cprtArea{
+  text-align: center;
+  margin-top: 2%;
+}
+
+#cprtTxt{
+  color: #ffff;
+  font-size: 10px;
+}
+
+.cprtArea img{
+  width: 100px;
+  margin: 10px 0;
+}
+
+.cprtArea a{
+  margin: auto;
+}
+
+.footer-copyright{
+  background: #0B7480;
+  color: #ffff;
+  margin-top: 10%;
+  text-align: center;
+}
+#footerButton{
+  color: #ffff;
+  font-size: 15px;
+  padding: 1%;
+  
+}

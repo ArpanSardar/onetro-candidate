@@ -1,0 +1,38 @@
+.sidebarRight-input {
+  height: 25px;
+  font-size: small;
+  padding: 3px 6px;
+}
+
+.sidebarRight-form-group {
+  margin-bottom: 2px;
+}
+
+.editButton {
+  color:#0B7480;
+  /* text-shadow: 0px 0px 1px blue; */
+}
+
+.editButton:hover {
+  /* color:#0B7480; */
+  text-shadow: 0px 0px 1px #0B7480;
+}
+
+.update {
+  color: green;
+  text-shadow: 0px 0px 1px lightgreen;
+}
+.edit{
+  
+  color:#0B7480;
+  /* text-shadow: #0B7480; */
+}
+.edit:hover{
+  
+  color:#FFFF;
+  /* text-shadow: #0B7480; */
+}
+/* .delete{
+    color: darkred;
+    text-shadow: 0px 0px 1px red;
+  } */

@@ -1,0 +1,308 @@
+.App {
+  height: 150vh;
+  display: flex;
+  color: white;
+}
+
+.App__Form {
+  width: 35%;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border: #225E62 solid 1px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  /* overflow: auto; */
+  /* align-content: cent;er;2E4158
+  align-items: center; */
+}
+
+.SocialLogin {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.PageSwitcher {
+  display: inline-flex;
+  margin-bottom: 10px;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.PageSwitcher__Item {
+  background-color: #4C5D72;
+  color: #9DA6B1;
+  padding: 5px 25px;
+  cursor: pointer;
+  font-size: .7em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.PageSwitcher__Item--Active {
+  background-color: #5ED0C0;
+  color: white;
+}
+
+.PageSwitcher__Item:first-child {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.PageSwitcher__Item:last-child {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.FormCenter {
+  /* margin-bottom: 20px; */
+}
+
+.FormTitle {
+  font-weight: 50px;
+  /* margin-top: 15px; */
+  margin-bottom: 10px;
+  color: #646F7D;
+  font-size: .8em;
+}
+
+.FormTitle__Link {
+  color: #707C8B;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .8em;
+  /* margin: 0 10px; */
+  padding-bottom: 5px;
+}
+
+.FormTitle__Link:first-child {
+  margin-left: 0;
+}
+
+.FormTitle__Link--Active {
+  color: white;
+  border-bottom: 1px solid #199087;
+}
+
+.FormField {
+  margin-bottom: 10px;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .7em;
+  color: white;
+}
+
+.FormField__Input {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #bdc3ca;
+  color: white;
+  outline: none;
+  /* border-bottom: 1px solid #445366; */
+  font-size: .7em;
+  font-weight: 500px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 8px;
+  border-radius: 3px;
+}
+
+.FormField__Input:focus {
+  border: 1px solid #6ea8eb;
+}
+
+.FormField__Input::placeholder {
+  color: #616E7F;
+}
+
+.FormField__Button {
+  background-color: rgb(97, 190, 181);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  font-size: .8em;
+  font-weight: 500;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.FormField__Button:hover, .FormField__Button:focus {
+  background-color: rgb(68, 172, 161);
+  background-image: linear-gradient(#225E62, #52C4B9);
+  cursor: pointer;
+}
+
+.FormField__hr {
+  color: #66707D;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.FormField__Link {
+  color: #66707D;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 1px solid #225E62;
+  padding: 2px 2px;
+  font-size: .7em;
+}
+
+.FormField__CheckboxLabel {
+  color: #646F7D;
+  font-size: .7em;
+}
+
+.FormField__Checkbox {
+  position: relative;
+  top: 1.5px;
+}
+
+.FormField__TermsLink {
+  color: skyblue;
+  /* border-bottom: 1px solid #199087; */
+  text-decoration: none;
+  display: inline-block;
+  padding-bottom: 2px;
+  margin-left: 5px;
+}
+
+/* Shared */
+
+.loginBtn {
+  box-sizing: border-box;
+  position: relative;
+  width: 18em;
+  margin: 0.2em;
+  padding: 0 15px 0 40px;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+  white-space: nowrap;
+  border-radius: 0.3em;
+  font-size: 10px;
+  color: #FFF;
+}
+
+.loginBtn:focus {
+  outline: 1px solid rgb(66, 73, 72);
+}
+
+.loginBtn:active {
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Facebook */
+
+.loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-shadow: 0 -1px 0 #354C8C;
+}
+
+.loginBtn--facebook:hover, .loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+  cursor: pointer;
+}
+
+/* Google */
+
+.loginBtn--google {
+  font-family: "Roboto", Roboto, arial, sans-serif;
+  background: #DD4B39;
+}
+
+.loginBtn--google:hover, .loginBtn--google:focus {
+  background: #E74B37;
+  cursor: pointer;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #fff;
+  color: #f1f1f1;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  z-index: 3;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.sticky+.content {
+  padding-top: 102px;
+}
+
+#smallHeaderLogo {
+  margin-top: 100px;
+}
+
+/* Style for google button */
+
+.buttonLogin {
+  /* display: inline-block; */
+  border-radius: 5px;
+  background-color: #0B7480;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  padding: 10px 0px 10px 10px;
+  font-size: .9em;
+  font-weight: 500px;
+  width: 100%;
+  cursor: pointer;
+  margin: 15px 0px 0px;
+  vertical-align: middle;
+  outline: none;
+}
+.buttonLogin span:hover {
+background-color: #0B7480;
+}
+.buttonLogin span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonLogin span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  /* right: -20px; */
+  transition: 0.5s;
+}
+
+.buttonLogin:hover span {
+  padding-right: 20px;
+}
+
+.buttonLogin:hover span:after {
+  opacity: 1;
+  right: 0;
+}

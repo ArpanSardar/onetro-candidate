@@ -1,0 +1,27 @@
+.sidebarRight-input{
+  height: 25px;
+  font-size: small;
+  padding: 3px 6px;
+}
+.sidebarRight-form-group{
+  margin-bottom: 2px;
+}
+/* .edit{
+  color: darkblue;
+  text-shadow: 0px 0px 1px blue;
+} */
+.update{
+  color: green;
+  text-shadow: 0px 0px 1px lightgreen;
+}
+/* .delete{
+  color: darkred;
+  text-shadow: 0px 0px 1px red;
+} */
+.referralList{
+  margin-top: 10px;
+}
+
+.Demo__some-network__share-button{
+  cursor:pointer;
+}

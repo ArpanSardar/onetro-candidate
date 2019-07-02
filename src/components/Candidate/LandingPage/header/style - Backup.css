@@ -1,0 +1,482 @@
+.row {
+  margin: 0 !important;
+}
+
+.logoFooter {
+  color: rgba(12, 12, 12, 0.3);
+  font-size: 15px;
+}
+
+.container10p {
+  width: 100%;
+  padding: 0 5%;
+}
+
+.container20p {
+  width: 100%;
+  padding: 5%;
+}
+
+.clear {
+  clear: both;
+}
+
+.btnAreaonPage {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+  /* position: fixed; */
+  opacity: 0.9;
+  /* color:rgb(255, 255, 255); */
+}
+
+.headerCandidatePage{
+  margin-top: 5%;
+  background-color: rgb(218, 214, 214);
+  /* color: white; */
+  opacity: 0.95;
+  /* width: 700px; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underConstruction{
+  color: white;
+  /* letter-spacing: -0.3px; */
+  text-align: center;
+  font-family: Avenir-Medium;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+/* .btnArea a{
+    border-radius: 3px;
+    width: 160px;
+    height: 54px;
+    font-variant: Normal;
+    line-height: 39px;
+    margin: 0px 4px 8px 0px;
+    background: #0B7480;
+    text-transform: none;
+    font-size: 20px; 
+    font-family: HiraginoSans-W4;
+  }
+  
+  .btnArea a:first-of-type{
+    margin: 0 1% 5% 0;
+    background: #fff;
+    border: solid 2px #0B7480;
+    color: #0B7480;
+  } */
+
+/* .buttonColorDark */
+
+.btnAreaonPage a.signinButtononPage, .btnAreaonPage a.signinButtononPage:hover {
+  color: #0B7480;
+}
+
+.btnAreaonPage a.signupButtononPage, .btnAreaonPage a.signupButtononPage:hover {
+  color: #FFFF;
+}
+
+.btnAreaonPage .signinButtononPage {
+  color: #0B7480;
+  margin-top: 5%;
+  font-family: HiraginoSans-W4;
+  font-size: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  background-color: #FFFFFF;
+  border: solid 2px #0B7480;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 200px;
+  height: 54px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.btnAreaonPage .signinButtononPage:hover {
+  box-shadow: 0px 0px 12px -1px #0B7480;
+}
+
+.btnAreaonPage .signupButtononPage {
+  font-family: HiraginoSans-W4;
+  font-size: 20px;
+  color: #FFFFFF;
+  background-color: #0B7480;
+  font-size: 20px;
+  color: rgb(189, 170, 170);
+  letter-spacing: 0;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  border: solid 2px #0B7480;
+  width: 200px;
+  height: 54px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.btnAreaonPage .signupButtononPage:hover {
+  box-shadow: 0px 0px 12px -1px #0B7480;
+}
+
+.screenImage {
+  margin-left: 5%;
+  font-family: Avenir-Book;
+  font-size: 18px;
+  color: #6C6C6C;
+  text-align: center;
+  font-family: Avenir-Book;
+  font-size: 18px;
+  color: #6C6C6C;
+  text-align: center;
+}
+
+.backgroundScreen {
+  background-image: url("../../../../assets/images/Desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 790px;
+  height: 470px;
+  padding: 0px 0px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.desktopVideo {
+  height: 270px;
+  margin: 17px 0px 0px 105px;
+}
+
+.backgroundPhoneScreen {
+  background-image: url("../../../../assets/images/Laptop2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 460px;
+  height: 230px;
+  padding: 0px 0px;
+  display: block;
+  position: absolute;
+  top: 210px;
+  margin-left: 200px;
+}
+
+.phoneVideo {
+  height: 200px;
+  margin: 10px 0px 0px 0px;
+}
+
+.parentVideo {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image2 {
+  position: absolute;
+  top: 250px;
+  left: 850px;
+  height: 240px;
+  width: 440px;
+}
+
+.imgBack1 {
+  background: linear-gradient(180deg, rgb(231, 248, 250), rgb(231, 248, 250));
+  background-repeat: no-repeat;
+  background-size: auto 59%;
+}
+
+#bak1Head {
+  margin-top: 5%;
+  /* color: #0B7480; */
+  color: white;
+  background-color: #0B7480; 
+}
+
+.topLnkCmp {
+  margin: 2%;
+  font-size: 20px;
+}
+
+.topLnkCmp a {
+  color: #0B7480;
+}
+
+.topBackground {
+  background: linear-gradient(180deg, rgb(231, 248, 250), rgb(231, 248, 250));
+  background-repeat: no-repeat;
+  background-size: auto 57%;
+  /* background-color: white; */
+  /* background-attachment: fixed; */
+}
+
+.imgBack2 {
+  background-image: url("/assets/images/candiLand2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 800px;
+  width: 100%;
+  padding: 10% 0;
+}
+
+.imgBack3 {
+  background-image: url("/assets/images/candiLand3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 0;
+}
+
+.transBk {
+  color: #26a69a;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10% 5%;
+}
+
+.iconInfo div {
+  height: 450px;
+  margin: 30px 0;
+  margin-right: 2%;
+  padding: 5%;
+  padding-top: 15%;
+  border-radius: 10px;
+  box-shadow: 15px 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardDesign1 {
+  background-image: url("../../../../assets/images/premiumCard@3x.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 15px 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#iconInfo1 div {
+  background: linear-gradient(135deg, #FF8064 0%, #E9AA4E 100%);
+}
+
+#iconInfo2 div {
+  background: linear-gradient(135deg, #5174CF 0%, #E6403E 100%);
+}
+
+#iconInfo3 div {
+  background: linear-gradient(135deg, #2FCFAD 0%, #194FB6 100%);
+}
+
+#iconInfo4 div {
+  background: linear-gradient(135deg, #57C018 0%, #13A39F 100%);
+}
+
+.imgBack3 h3 {
+  color: #26a69a;
+}
+
+.iconInfo span {
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+#iconInfo1 span i {
+  background: linear-gradient(135deg, #FF8064 0%, #E9AA4E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#iconInfo2 span i {
+  background: linear-gradient(135deg, #5174CF 0%, #E6403E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#iconInfo3 span i {
+  background: linear-gradient(135deg, #2FCFAD 0%, #194FB6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#iconInfo4 span i {
+  background: linear-gradient(135deg, #57C018 0%, #13A39F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.iconInfo span i {
+  vertical-align: bottom;
+  margin: 20px;
+  font-size: 52px;
+}
+
+.iconInfo p {
+  color: white;
+  font-size: 25px;
+}
+
+.topBar img {
+  /* margin: 5% 10%; */
+  max-height: 32px;
+  max-width: 200px;
+  float: left;
+}
+
+.botBar img {
+  display: block;
+  max-width: 175px;
+}
+
+.botBtnArea {
+  padding: 2% 5%;
+}
+
+.botBtnArea a {
+  border-radius: 6px;
+  width: 210px;
+  height: 54px;
+  font-variant: Normal;
+  line-height: 54px;
+  margin: 0 5% 0 0;
+  background: #26a69a;
+  text-transform: none;
+  font-size: 22px;
+}
+
+.botBtnArea a:first-of-type {
+  margin: 0 5% 0 0;
+  background: rgba(255, 255, 255, 0.3);
+  border: solid 2px #26a69a;
+  color: #26a69a;
+}
+
+.botLogo {
+  padding: 32px 32px;
+  padding-bottom: 22px;
+}
+
+.botCmpLnk {
+  display: block;
+  margin-top: 8px;
+  color: #26a69a;
+  font-size: 18px;
+}
+
+.greyTxt {
+  color: #787878;
+  font-size: 28px;
+  margin-top: 10%
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+}
+
+.frgtPass {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.pgTitle {
+  margin-top: 1%;
+  font-family: Avenir-Medium;
+  font-size: 30px;
+  color: #0B7480;
+  /* color: white; */
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+ 
+.signupToday {
+  /* margin-top: 1%; */
+  font-family: Avenir-Medium;
+  font-size: 20px;
+  color: #0B7480;
+  /* color: white; */
+  letter-spacing: -0.3px;
+  text-align: center;
+}
+.pgDescription {
+  /* color: #0B7480; */
+  color: rgb(73, 72, 72);
+  /* letter-spacing: -0.3px; */
+  text-align: center;
+  font-family: Avenir-Medium;
+  font-size: 15px;
+  line-height: 15px;
+  /* margin-top: 2%; */
+}
+
+.signupButton {
+  color: #0B7480;
+}
+
+.asterisk {
+  font-size: 50%;
+  vertical-align: top;
+  background: none !important;
+}
+
+.posRel {
+  position: relative;
+}
+
+#lrnMr {
+  margin: 0;
+  position: absolute;
+  bottom: 2px;
+  right: 10px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.signupbtn {
+  background: transparent;
+}
+
+.forStyle {
+  font-family: Avenir-Medium;
+  font-size: 15px;
+  /* color: #7A7A7A; */
+  color: white;
+  text-align: left;
+  line-height: 33px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  opacity: 0.7;
+}
+.starOffering{
+  border: .5px solid lightgray;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(240, 235, 235);
+}
+.star{
+  color:orange;
+ font-size: 20px;
+}
+.starCount{
+  color:#494848;
+  font-size: 18px;
+}

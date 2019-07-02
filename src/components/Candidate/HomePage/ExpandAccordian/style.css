@@ -1,0 +1,109 @@
+.backgroundFaq{
+
+    background-color: #ffff;
+    /* background-image: url("../../../../assets/images/faq_background.png"); */
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* padding: 4%; */
+  }
+  
+  .headerFaq{
+  
+    background-color: #ffff;
+    /* background-image: url("../../../../assets/images/faqHeader.png"); */
+    background-repeat: no-repeat; /*Prevent showing multiple background images*/
+    background-size: 100% 100%;
+    /* padding: 4%; */
+  }
+  
+  
+  .faqHeader {
+      display: inline;
+      /* position: relative; */
+      letter-spacing: -5px;
+    font-family: AvenirNextCondensed-DemiBold;
+    font-size: 148px;
+    color: #898989;
+    letter-spacing: 14.3px;
+    text-align: center;
+    position: absolute;
+    left: 42%;
+    margin-top: 5%;
+  }
+  
+  .faqHeader:after {
+      content: "FAQ";
+      position: absolute; left: 10px; bottom: 5px;
+    /* color: rgba(255,0,0,0.5); */
+    opacity: 0.26;
+    font-family: AvenirNextCondensed-DemiBold;
+    font-size: 148px;
+    color: rgb(168, 166, 166);
+    letter-spacing: 14.3px;
+    text-align: center;   
+  }
+  #exandable{
+    color: rgba(255,0,0,0.5);
+    /* opacity: 0.26; */
+    box-shadow: 1px 1px 2px 0 rgba(253, 252, 252, 0.2);
+  }
+  
+  .faqContainer{
+    align-content: left;
+    align-items: left;
+  }
+  .signFaq{
+    font-family: Avenir-Medium;
+  font-size: 78px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 39px;
+  }
+  .signFaq:after{
+    content: "FAQ";
+      position: absolute; left: 10px; bottom: 5px;
+    /* color: rgba(255,0,0,0.5); */
+    opacity: 0.26;
+    font-family: AvenirNextCondensed-DemiBold;
+    font-size: 148px;
+    color: #FFFFFF;
+    letter-spacing: 14.3px;
+    text-align: center;  
+  }
+  
+  .rectangleFaq{
+    background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  border-radius: 8px;
+  width: 800px;
+  display: inline-block;
+  padding:3%;
+  }
+  
+  .faqHeaderText{
+    font-family: Avenir-Book;
+  font-size: 26px;
+  color: #787878;
+  text-align: center;
+  }
+  
+  .expandableView{
+    /* padding: 5%; */
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .footerSeperator{
+    /* padding: 5%; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+  }
+  
+  .bulbImage{
+    position: relative;
+    top: 0px;
+    left: -10%;
+  }

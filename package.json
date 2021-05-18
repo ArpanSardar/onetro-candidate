@@ -6,7 +6,7 @@
   "typings": "dist/index",
   "dependencies": {
     "@firebase/app-types": "^0.3.5",
-    "@firebase/util": "^0.2.8",
+    "@firebase/util": "^0.3.4",
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
     "@types/antd": "^1.0.0",
